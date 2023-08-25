@@ -1,0 +1,12 @@
+[package]
+name = "geekool"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bevy = { path = "/Volumes/ModelY/Y-gitProject/bevy", features = ["dynamic_linking"]}
+
+[workspace]
+resolver = "2" # Important! wgpu/Bevy needs this!
